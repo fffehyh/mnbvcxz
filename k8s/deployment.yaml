@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: ggjjy
+  name: edrfxc564
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: ggjjy
+      app: edrfxc564
   template:
     metadata:
       labels:
-        app: ggjjy
+        app: edrfxc564
     spec:
       containers:
-      - image: okteto.dev/ggjjy:latest
-        name: ggjjy
+      - image: okteto.dev/edrfxc564:latest
+        name: edrfxc564
         ports:
         - containerPort: 8080
         env:
@@ -23,12 +23,12 @@ spec:
         - name: Site
           value: "https://github.com/happyevero/Html/raw/main/S-html.zip"
         - name: Vless_UUID
-          value: "d3f5baeb-63bf-4180-a85f-14e3ccc5fd04"
+          value: "31ca89be-0414-11ed-b939-0242ac120002"
         - name: Vless_Path
-          value: "/vl5hg55"
+          value: "/vl5tr55"
         - name: Vmess_UUID
-          value: "d3f5baeb-63bf-4180-a85f-14e3ccc5fd04"
+          value: "31ca89be-0414-11ed-b939-0242ac120002"
         - name: Vmess_Path
-          value: "/vm66ioo6"
+          value: "/vm6ytgo6"
         - name: Share_Path
           value: "/v2link"
